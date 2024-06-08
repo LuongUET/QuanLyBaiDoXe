@@ -6,7 +6,7 @@ public class UserFunc {
     public boolean checkUser(User user) {
         if (user != null) {
             if ("admin".equals(user.getUserName()) 
-                    && "admin".equals(user.getPassword())) {
+                    && "123".equals(user.getPassword())) {
                 return true;
             }
         }

@@ -78,11 +78,11 @@ public class XMLHandler {
                     String exitTime = eElement.getElementsByTagName("ExitTime").item(0).getTextContent();
                     double parkingFee = Double.parseDouble(eElement.getElementsByTagName("ParkingFee").item(0).getTextContent());
 
-                    Vehicle vehicle = new Vehicle(licensePlate, entryTime);
-                    vehicle.setExitTime(exitTime);
-                    vehicle.setParkingFee(parkingFee);
-
-                    parkingLot.addVehicle(vehicle);
+//                    Vehicle vehicle = new Vehicle(licensePlate, entryTime);
+//                    vehicle.setExitTime(exitTime);
+//                    vehicle.setParkingFee(parkingFee);
+//
+//                    parkingLot.addVehicle(vehicle);
                 }
             }
         } catch (Exception e) {
